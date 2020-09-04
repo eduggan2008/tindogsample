@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -29,7 +29,7 @@ h2 {
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 10px 0;
 }
 
@@ -69,12 +69,16 @@ nav-link {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 22%;
 }
 
 /* Features Section */
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box {
@@ -94,7 +98,6 @@ nav-link {
 /* Testimonial Section */
 
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -104,6 +107,10 @@ nav-link {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
 }
 
 #press {
@@ -116,3 +123,24 @@ nav-link {
     width: 15%;
     margin: 20px 20px 50px;
 }
+
+/* Pricing Section */
+
+#pricing {
+    padding: 8%;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card {
+    text-align: center;
+}
+
+/* Call to Action Section */
+
+
+
+/* Footer Section */
